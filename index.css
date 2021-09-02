@@ -24,8 +24,7 @@
 }
 
 
-/* Next Container 2 */
-
+/* Container 2 */
 .container2 {
   margin-top: 70px !important;
   display: flex;
@@ -33,20 +32,34 @@
   width: auto;
   border: 1px solid black;
   margin: auto;
-  /* default value is nowrap and it won't goto next next */ 
-  /* flex-wrap: wrap; */
-  /* shortand of flex-direction and flex-wrap */
   flex-flow: row wrap;
 }
 
 .item_2 {
   width: 100px;
-  /* flex: 1 1 160px; by default 0 0 auto */
-  /* flex-basis: 160px; */
-  /*if an element gets to next line and it is only element there then it will occupy all the line*/
-  /* flex-grow: 1; */
   flex: 1 1 160px; 
   height: 50px;
+  background-color: red;
+  margin: 5px 10px;
+  padding: 3px;
+  border: 2px solid green;
+}
+
+/* Container 3 */
+.container3 {
+  margin-top: 70px !important;
+  display: flex;
+  height: 300px;
+  width: auto;
+  border: 1px solid black;
+  margin: auto;
+  flex-flow: column wrap;
+}
+
+.item_3 {
+  height: 80px;
+  width: 300px;
+  flex: 1 1 80px; 
   background-color: red;
   margin: 5px 10px;
   padding: 3px;
